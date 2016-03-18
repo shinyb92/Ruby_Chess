@@ -18,9 +18,5 @@ require 'byebug'
 			  legal_moves << new_location 
 			end 
 		end 
-
 		legal_moves 
-
 	end
-	
-	p get_legal_moves([0,0])
